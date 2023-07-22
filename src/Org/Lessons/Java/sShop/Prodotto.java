@@ -4,11 +4,14 @@ import java.util.UUID;
 public class Prodotto {
 
 
-   private  String nome;
+
+
+    private int codice;
+    private  String nome;
     private String descrizione;
      private  double prezzo;
      private double iva;
-    private int codice;
+
 
 //costruttore
 

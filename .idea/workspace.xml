@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2b612a4-4437-4f69-bc63-b2bb32d99237" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-oop-shop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Org/Lessons/Java/sShop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Org/Lessons/Java/sShop/Prodotto.java" afterDir="false" />
+    <list default="true" id="b2b612a4-4437-4f69-bc63-b2bb32d99237" name="Changes" comment="primapartefinita">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Org/Lessons/Java/sShop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Org/Lessons/Java/sShop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Org/Lessons/Java/sShop/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Org/Lessons/Java/sShop/Prodotto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +48,47 @@
       <option name="presentableId" value="Default" />
       <updated>1689863494408</updated>
     </task>
+    <task id="LOCAL-00001" summary="prima parte finita">
+      <option name="closed" value="true" />
+      <created>1689952430484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689952430484</updated>
+    </task>
+    <task id="LOCAL-00002" summary="primapartefinita">
+      <option name="closed" value="true" />
+      <created>1689952557990</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689952557990</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="prima parte finita" />
+    <MESSAGE value="primapartefinita" />
+    <option name="LAST_COMMIT_MESSAGE" value="primapartefinita" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/Org/Lessons/Java/sShop/Prodotto.java</url>
-          <line>88</line>
+          <line>91</line>
           <properties field="codice" class="Org.Lessons.Java.sShop.Prodotto" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
