@@ -4,39 +4,37 @@ import java.util.UUID;
 public class Prodotto {
 
 
-
-
     private int codice;
-    private  String nome;
-    private String descrizione;
-     private  double prezzo;
-     private double iva;
+    private String nome;
+    private String marca;
+    private double prezzo;
+    private double iva;
 
 
 //costruttore
 
 
+    public Prodotto(int codice, String nome, String marca, double prezzo, double iva) {
+        this.nome = nome;
+        this.marca = marca;
+        this.prezzo = prezzo;
 
-    public Prodotto(int codice, String nome, String descrizione, double prezzo, double iva) {
-        this.nome=nome;
-        this.descrizione=descrizione;
-        this.prezzo=prezzo;
-
-                this.iva=iva;
-                this.codice= generateRandomCode();
+        this.iva = iva;
+        this.codice = generateRandomCode();
 
     }
 
     //variabile per il numero random
-private int generateRandomCode(){
-    Random randon= new Random();
-    //inseriamo qst xk rrstiuisca un valore
+    private int generateRandomCode() {
+        Random randon = new Random();
+        //inseriamo qst xk rrstiuisca un valore
 
-    return  randon.nextInt(100000)+1;
-}
+        return randon.nextInt(100000) + 1;
+    }
     //getter and setter
 
     public int getCodice() {
+
         return codice;
     }
 
@@ -49,11 +47,11 @@ private int generateRandomCode(){
     }
 
     public String getDescrizione() {
-        return descrizione;
+        return marca;
     }
 
     public void setDescrizione(String descrizione) {
-        this.descrizione = descrizione;
+        this.marca = marca;
     }
 
     public double getPrezzo() {
@@ -74,18 +72,20 @@ private int generateRandomCode(){
 
 //metodi
 
-    public  double Calcolaprezzobase(){
+    public double Calcolaprezzobase() {
+
         return prezzo;
     }
-    public  double Calcolaprezzoconiva() {
+
+    public double Calcolaprezzoconiva() {
 
         return prezzo + (prezzo * iva / 100);
     }
 
-      public  String  GetName(){
+    public String GetName() {
 
-        String nomecode =String.format("&08d",codice);
-        return generateRandomCode()+ "-"+ nome;
+        String nomecode = String.format("&08d", codice);
+        return generateRandomCode() + "-" + nome;
     }
 }
-//
+
